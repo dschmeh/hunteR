@@ -1,5 +1,7 @@
 # hunteR
 
+[![Build Status](https://travis-ci.org/dschmeh/hunteR.svg?branch=master)](https://travis-ci.org/dschmeh/hunteR)
+
 A simple R Package to retrieve information from hunter.io-API
 # Installation 
 

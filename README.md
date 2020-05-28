@@ -28,7 +28,7 @@ Function to generate or retrieve the most likely email address from a domain nam
 domain <- "keyword-hero.com"
 key <- {{YOUR-API-TOKEN}}
 first_name<-"Daniel"
-domain_search(domain, key, first_name)
+email_finder(domain, key, first_name)
 ```
 
 ## Email Verifier
@@ -36,7 +36,7 @@ Function to verify the deliverability of an email address.
 ```
 domain <- "keyword-hero.com"
 key <- {{YOUR-API-TOKEN}}
-email_finder(domain, key)
+email_verifier(domain, key)
 ```
 
 ## Email Count

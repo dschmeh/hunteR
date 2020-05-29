@@ -15,3 +15,8 @@ email_count()}
 \description{
 This function allows you to know how many email addresses we have for one domain or for one company. It's free and doesn't require authentication.
 }
+\examples{
+\dontrun{
+email_count("keyword-hero.com")
+}
+}

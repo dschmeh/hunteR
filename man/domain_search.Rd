@@ -33,3 +33,8 @@ domain_search()}
 \description{
 This function allows you to get the email adress found on the web for a given domain you enter.
 }
+\examples{
+\dontrun{
+domain_search("keyword-hero.com", key)
+}
+}

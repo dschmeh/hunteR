@@ -15,3 +15,8 @@ email_verifier()}
 \description{
 This function allows you to verify the deliverability of an email address.
 }
+\examples{
+\dontrun{
+email_verifier("danielatkeyword-hero.com", key)
+}
+}

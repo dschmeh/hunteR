@@ -13,3 +13,8 @@ account_information()}
 \description{
 This function allows you to get information regarding your Hunter account at any time. This call is free.
 }
+\examples{
+\dontrun{
+account_information(key)
+}
+}

@@ -21,3 +21,8 @@ email_finder()}
 \description{
 This function allows you to generate or retrieve the most likely email address from a domain name, a first name and a last name.
 }
+\examples{
+\dontrun{
+email_finder("keyword-hero.com", key, first_name = "Daniel")
+}
+}

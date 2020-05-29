@@ -7,10 +7,10 @@
 email_count(domain, type = "")
 }
 \arguments{
+\item{domain}{The domain name for which you want to know how many email addresses we have.}
+
 \item{type}{Get the count of only personal or generic email addresses.
 email_count()}
-
-\item{email}{The email address you want to verify.}
 }
 \description{
 This function allows you to know how many email addresses we have for one domain or for one company. It's free and doesn't require authentication.

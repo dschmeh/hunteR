@@ -9,7 +9,12 @@
 #' @param seniority 	Get only email addresses for people with the selected seniority level. The possible values are junior, senior or executive. Several seniority levels can be selected (delimited by a comma).
 #' @param department Get only email addresses for people working in the selected department(s). The possible values are executive, it, finance, management, sales, legal, support, hr, marketing or communication. Several departments can be selected (comma-delimited).
 #' domain_search()
-#'
+#' @examples
+#' \dontrun{
+#' domain_search("keyword-hero.com", key)
+#' }
+
+
 domain_search <-
   function(domain,
            key,

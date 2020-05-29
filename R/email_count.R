@@ -5,7 +5,12 @@
 #' @param domain 	The domain name for which you want to know how many email addresses we have.
 #' @param type Get the count of only personal or generic email addresses.
 #' email_count()
-#'
+#' @examples
+#' \dontrun{
+#' email_count("keyword-hero.com")
+#' }
+
+
 email_count <-
   function(domain,
            type = "") {

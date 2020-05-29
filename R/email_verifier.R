@@ -4,7 +4,12 @@
 #' @param email 	The email address you want to verify.
 #' @param key Your hunter.io-API key
 #' email_verifier()
-#'
+#' @examples
+#' \dontrun{
+#' email_verifier("danielatkeyword-hero.com", key)
+#' }
+
+
 email_verifier <-
   function(email,
            key) {

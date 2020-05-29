@@ -7,7 +7,12 @@
 #' @param last_name The person's last name. It doesn't need to be in lowercase.
 #' @param full_name The person's full name. Note that you'll get better results by supplying the person's first and last name if you can. It doesn't need to be in lowercase.
 #' email_finder()
-#'
+#' @examples
+#' \dontrun{
+#' email_finder("keyword-hero.com", key, first_name = "Daniel")
+#' }
+
+
 email_finder <-
   function(domain,
            key,

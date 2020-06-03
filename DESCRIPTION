@@ -4,7 +4,7 @@ Title: Wrapper for the 'hunter.io' API V2
 Version: 0.1.0
 Author: Daniel Schmeh
 Maintainer: Daniel Schmeh <daniel.schmeh@gmail.com>
-Description: Wrapper for the 'hunter.io' <https://hunter.io/> API. TO retrive Mailadresses for specific Domains.
+Description: Wrapper for the 'hunter.io' <https://hunter.io/> API. To retrive mailadresses for specific domains.
 License:  MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

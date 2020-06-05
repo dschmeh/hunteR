@@ -16,7 +16,7 @@ email_count <-
            type = "") {
 
     if (type != "") {
-      if (type != "personal" || type != "generic") {
+      if (type != "personal" && type != "generic") {
         stop("Input for type can just be personal or generic")
       }
     }

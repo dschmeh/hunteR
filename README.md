@@ -52,3 +52,25 @@ Function enables you to get information regarding your Hunter account at any tim
 key <- {{YOUR-API-TOKEN}}
 account_information(key)
 ```
+
+## Examples
+
+Running a list of Domains through the API to get mailadresses of users in the marketing department.
+```
+for (i in 1:40) {
+  a <-
+    domain_search(as.character(mailcheck$domain[i]), hunter_key, department = "marketing")
+  if (class(a$data$emails) != "list") {
+    a_out <- a$data$emails
+    a_out$source <- a$data$domain
+    if (class(a$data$pattern)=="NULL") {
+      a_out$pattern <- "no_patter"
+    } else
+    {
+      a_out$pattern <- a$data$pattern
+    }
+    mails_out <- rbind(mails_out, a_out)
+  }
+  print(i)
+}
+```
